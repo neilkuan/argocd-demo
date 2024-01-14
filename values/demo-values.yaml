@@ -1,2 +1,2 @@
 helm-demo-private:
-  replicaCount: 3
+  replicaCount: 1
