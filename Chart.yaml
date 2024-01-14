@@ -1,0 +1,9 @@
+apiVersion: v2
+name: argocd-demo-values
+description: Stored helm chart values for argocd-demo services.
+type: application
+version: 0.0.0
+dependencies:
+- name: helm-demo-private
+  version: 0.0.1
+  repository: https://helm-demo-private.s3.ap-northeast-1.amazonaws.com/
