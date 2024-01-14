@@ -5,5 +5,5 @@ type: application
 version: 0.0.0
 dependencies:
 - name: helm-demo-private
-  version: 0.0.1
+  version: 0.0.2
   repository: https://helm-demo-private.s3.ap-northeast-1.amazonaws.com/
